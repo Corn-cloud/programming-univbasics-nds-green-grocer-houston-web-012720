@@ -21,6 +21,7 @@ def consolidate_cart(cart)
     item_name = cart [i][:item]
     sought_item = find_item_by_name_in_collection(item_name, result)
   if sought_item
+    sought_item[]
 end
 
 def apply_coupons(cart, coupons)
