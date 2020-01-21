@@ -31,6 +31,8 @@ end
 result 
 end
 
+
+
 def apply_coupons(cart, coupons)
   # Consult README for inputs and outputs
   #
