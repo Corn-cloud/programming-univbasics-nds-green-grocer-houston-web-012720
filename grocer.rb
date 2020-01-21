@@ -56,7 +56,6 @@ def apply_coupons(cart, coupons)
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
-  rounded_unit_price = (c[:cost].to_f * 1.0 / c[:num]).round(2)
   i = 0
   while i < coupons.count do
     coupon = coupons[i]
