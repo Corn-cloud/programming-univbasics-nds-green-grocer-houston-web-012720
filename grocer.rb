@@ -18,7 +18,7 @@ def consolidate_cart(cart)
   i = 0 
   result = [] 
   while i < cart.count do
-    item_name = 
+    item_name = cart [i]
 end
 
 def apply_coupons(cart, coupons)
