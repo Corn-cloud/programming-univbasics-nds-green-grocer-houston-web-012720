@@ -22,7 +22,7 @@ def consolidate_cart(cart)
     sought_item = find_item_by_name_in_collection(item_name, result)
   if sought_item
     sought_item[:count] = 1 
-    
+  else 
 end
 
 def apply_coupons(cart, coupons)
