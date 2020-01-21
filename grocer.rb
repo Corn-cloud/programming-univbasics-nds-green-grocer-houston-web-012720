@@ -19,7 +19,7 @@ def consolidate_cart(cart)
   result = [] 
   while i < cart.count do
     item_name = cart [i][:item]
-    sought_item = find_item_by_name_in_collection
+    sought_item = find_item_by_name_in_collection(item_name, )
 end
 
 def apply_coupons(cart, coupons)
