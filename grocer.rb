@@ -4,7 +4,7 @@ def find_item_by_name_in_collection(name, collection)
   # Consult README for inputs and outputs
   i = 0 
   while i < collection.length do 
-    return collection[i] 
+    return collection[i] if name == 
 end
 
 def consolidate_cart(cart)
