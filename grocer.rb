@@ -23,7 +23,7 @@ def consolidate_cart(cart)
   if sought_item
     sought_item[:count] = 1 
   else 
-    cart[i][:count]
+    cart[i][:count] = 1 
 end
 
 def apply_coupons(cart, coupons)
